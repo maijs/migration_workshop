@@ -19,7 +19,7 @@
             "package": {
                 "name": "wunderkraut/migrate_source_example",
                 "type": "drupal-module",
-                "version": "8.2.x",
+                "version": "8.2",
                 "source": {
                     "url": "https://github.com/wunderkraut/migrate_source_example.git",
                     "type": "git",
@@ -38,7 +38,7 @@
         "drupal/migrate_plus": "3.*",
         "drupal/migrate_tools": "3.*",
         "drupal/migrate_source_csv": "2.0-rc2",
-        "wunderkraut/migrate_source_example": "8.2.x"
+        "wunderkraut/migrate_source_example": "8.2"
     },
     "require-dev": {
         "behat/mink": "~1.7",
