@@ -1,6 +1,4 @@
-# Composer template for Drupal projects
-
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
+# Composer template for migration workshop (DrupalCampBaltics 2016)
 
 This project template should provide a kickstart for managing your site
 dependencies with [Composer](https://getcomposer.org/).
@@ -20,7 +18,7 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction
+composer create-project laurisigaunis/migration_workshop:8.0.0 migration_workshop --stability dev --no-interaction --repository https://raw.githubusercontent.com/laurisigaunis/migration_workshop/master/packages.json
 ```
 
 With `composer require ...` you can download new dependencies to your 
