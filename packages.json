@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "laurisigaunis/migration_workshop": {
+      "8.0.0": {
+        "name": "laurisigaunis/migration_workshop",
+        "version": "8.0.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/laurisigaunis/migration_workshop",
+          "reference": "master"
+        }
+      }
+    }
+  }
+}
