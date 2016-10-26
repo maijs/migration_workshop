@@ -78,8 +78,8 @@ Steps to proceed:
 * Run `drush ms` to confirm that CSV migrations are registered and listed.
 * There are multiple ways to run migrations:
   * one by one - `drush mi migrate_source_example_csv_author` - this will migrate only book authors;
-  * all group - `druhs mi --group=migrate_source_example_csv` - this will migrate all migrations in CSV migration group; 
-  * every migration - `druhs mi --all`
+  * all group - `drush mi --group=migrate_source_example_csv` - this will migrate all migrations in CSV migration group; 
+  * every migration - `drush mi --all`
 * After migration manually confirm that content has been imported. Check the following pages:
   * content and translations - `/admin/content`;
   * authors and categories - `admin/structure/taxonomy/manage/author/overview` and `admin/structure/taxonomy/manage/category/overview`;
@@ -104,8 +104,8 @@ Steps to proceed:
 * Run `drush ms` to confirm that DB migrations are registered and listed.
 * Run the migrations:
   * `drush mi migrate_source_example_db_author`
-  * `druhs mi --group=migrate_source_example_db`
-  * `druhs mi --all`
+  * `drush mi --group=migrate_source_example_db`
+  * `drush mi --all`
 * After migration manually confirm that content has been imported.
 * Run `drush mr --group=migrate_source_example_db` to rollback the migrations in the group or `drush mr --all` to remove all migrated content.
 
@@ -128,8 +128,8 @@ Steps to proceed:
 * Run `drush ms --uri=[BASE_PATH]` to confirm that JSON migrations are registered and listed.
 * Run the migrations:
   * `drush mi migrate_source_example_json_author --uri=[BASE_PATH]`
-  * `druhs mi --group=migrate_source_example_json --uri=[BASE_PATH]`
-  * `druhs mi --all --uri=[BASE_PATH]`
+  * `drush mi --group=migrate_source_example_json --uri=[BASE_PATH]`
+  * `drush mi --all --uri=[BASE_PATH]`
 * After migration manually confirm that content has been imported.
 * Run `drush mr --group=migrate_source_example_json --uri=[BASE_PATH]` to rollback the migrations in the group or `drush mr --all --uri=[BASE_PATH]` to remove all migrated content.
 
@@ -147,8 +147,8 @@ Steps to proceed:
 * Run `drush ms` to confirm that XML migrations are registered and listed.
 * Run the migrations:
   * `drush mi migrate_source_example_xml_author`
-  * `druhs mi --group=migrate_source_example_xml`
-  * `druhs mi --all`
+  * `drush mi --group=migrate_source_example_xml`
+  * `drush mi --all`
 * After migration manually confirm that content has been imported.
 * Run `drush mr --group=migrate_source_example_xml` to rollback the migrations in the group or `drush mr --all` to remove all migrated content.
 
