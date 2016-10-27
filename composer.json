@@ -26,6 +26,17 @@
                     "reference": "8.2.x"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "phpoffice/phpspreadsheet",
+              "version": "0.0",
+              "dist": {
+                "url": "https://github.com/PHPOffice/PhpSpreadsheet/archive/develop.zip",
+                "type": "zip"
+              }
+            }
         }
     ],
     "require": {
@@ -39,7 +50,7 @@
         "drupal/migrate_tools": "3.*",
         "drupal/migrate_source_csv": "2.0-rc2",
         "phpoffice/phpspreadsheet": "~0.0",
-        "drupal/migrate_spreadsheet": "1.0-alpha4",
+        "drupal/migrate_spreadsheet": "~1.0",
         "wunderkraut/migrate_source_example": "~8.2"
     },
     "require-dev": {
