@@ -26,6 +26,17 @@
                     "reference": "8.2.x"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "phpoffice/phpspreadsheet",
+              "version": "0.0",
+              "dist": {
+                "url": "https://github.com/PHPOffice/PhpSpreadsheet/archive/develop.zip",
+                "type": "zip"
+              }
+            }
         }
     ],
     "require": {
