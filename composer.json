@@ -38,7 +38,9 @@
         "drupal/migrate_plus": "3.*",
         "drupal/migrate_tools": "3.*",
         "drupal/migrate_source_csv": "2.0-rc2",
-        "wunderkraut/migrate_source_example": "8.2"
+        "phpoffice/phpspreadsheet": "~0.0",
+        "drupal/migrate_spreadsheet": "1.0-alpha4",
+        "wunderkraut/migrate_source_example": "~8.2"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -57,7 +59,10 @@
     "autoload": {
         "classmap": [
             "scripts/composer/ScriptHandler.php"
-        ]
+        ],
+        "psr-4": {
+            "PhpOffice\\PhpSpreadsheet\\": "vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet"
+        }
     },
     "scripts": {
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
