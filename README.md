@@ -39,6 +39,11 @@ When installing the given `composer.json` some tasks are taken care of:
 * Autoloader is implemented to use the generated composer autoloader in `vendor/autoload.php`,
   instead of the one provided by Drupal (`web/vendor/autoload.php`).
 * Modules (packages of type `drupal-module`) will be placed in `web/modules/contrib/`
+  * This setup includes already some module:
+    * migrate_plus
+    * migrate_tools
+    * migrate_source_csv
+    * migrate_source_example (custom git project)
 * Theme (packages of type `drupal-theme`) will be placed in `web/themes/contrib/`
 * Profiles (packages of type `drupal-profile`) will be placed in `web/profiles/contrib/`
 * Creates default writable versions of `settings.php` and `services.yml`.
