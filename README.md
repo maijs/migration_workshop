@@ -152,6 +152,10 @@ Steps to proceed:
 * After migration manually confirm that content has been imported.
 * Run `drush mr --group=migrate_source_example_xml` to rollback the migrations in the group or `drush mr --all` to remove all migrated content.
 
+### Challenge!
 
+If you are interested in making the migration example module more comprehensive, don't hasitate to create a pull request. The following items are sought for:
 
-
+* Tests that cover the completion of migrations;
+* Advanced usage of process plugins;
+* Other migration sources.
