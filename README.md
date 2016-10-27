@@ -154,7 +154,7 @@ Steps to proceed:
 
 ### Challenge!
 
-If you are interested in making the migration example module more comprehensive, don't hasitate to create a pull request. The following items are sought for:
+If you are interested in making the migration example module more comprehensive, don't hesitate to create a pull request. The following items are sought for:
 
 * Tests that cover the completion of migrations;
 * Advanced usage of process plugins;
