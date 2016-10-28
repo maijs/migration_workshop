@@ -13,7 +13,7 @@ First you need to [install composer](https://getcomposer.org/doc/00-intro.md#ins
 
 Secondly you need to [install drush](http://docs.drush.org/en/master/install/). If you don't want to install `drush` globally, you can use the one provided by this template. 
 
-After that you can create the project:
+To fetch the code, run the following command in your docroot of your webserver:
 
 ```
 composer create-project laurisigaunis/migration_workshop:8.0.0 migration_workshop --stability dev --no-interaction --repository https://raw.githubusercontent.com/laurisigaunis/migration_workshop/master/packages.json
@@ -27,9 +27,7 @@ cd migration_workshop
 composer require drupal/devel:~1.0
 ```
 
-The `composer create-project` command passes ownership of all files to the 
-project that is created. You should create a new git repository, and commit 
-all files not excluded by the .gitignore file.
+After all the dependencies have been fetched, point your browser to http://[your-domain]/migration_workshop/web and install Drupal using the `Standard` installation profile. You can use Mysql or Sqlite storage for the website.
 
 ## What does the template do?
 
