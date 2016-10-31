@@ -51,6 +51,7 @@
         "drupal/migrate_source_csv": "2.0-rc2",
         "phpoffice/phpspreadsheet": "~0.0",
         "drupal/migrate_spreadsheet": "~1.0",
+        "drupal/migrate_drush": "~1",
         "wunderkraut/migrate_source_example": "~8.2"
     },
     "require-dev": {
